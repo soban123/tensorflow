@@ -1,0 +1,32 @@
+# Ignore Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore TensorFlow model checkpoints
+checkpoint
+*.ckpt
+*.ckpt.data-*
+*.ckpt.index
+
+# Ignore TensorFlow event files
+events.out.tfevents.*
+
+# Ignore logs and temporary files
+logs/
+tmp/
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+node_modules/
